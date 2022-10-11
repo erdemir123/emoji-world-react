@@ -1,0 +1,86 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 96vw;
+  background-color: #ffff;
+  overflow-x: hidden;
+}
+h1{
+  font-size: 4rem;
+  color: rgba(6, 55, 39, 0.459);
+}
+input{
+  width: 60%;
+  height: 2rem;
+  text-indent: 1rem;
+  overflow: hidden;
+  border: none;
+  background-color: rgba(3, 34, 3, 0.221);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.header {
+  width: 100%;
+  text-align: center;
+}
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(3, 34, 3, 0.221);
+  text-align: center;
+  width: 20%;
+  height: 400px;
+  min-width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+}
+.emoji-img {
+  font-size: 4rem;
+  animation: sadık 2s linear infinite;
+}
+.emoji-name {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-top: -3rem;
+}
+.emoji-category {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: rgb(18, 86, 63);
+}
+.emoji-group {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+
+@keyframes sadık{
+  0%{
+    transform: translateY(-20px);
+  }
+  50%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+}
