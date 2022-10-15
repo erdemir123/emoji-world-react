@@ -1,3 +1,4 @@
+![Video_221015230117](https://user-images.githubusercontent.com/108179253/196006290-53a2d23c-c48a-4af8-84ea-2bee69bbb664.gif)
 <h1>https://emoji-world.onrender.com/<h1>
 # Getting Started with Create React App
 
